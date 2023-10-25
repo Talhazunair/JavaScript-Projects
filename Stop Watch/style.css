@@ -1,0 +1,96 @@
+    /* *
+    {
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: Arial, sans-serif;
+    }
+    .container
+    {
+        background-color: brown;
+        height: 30vh;
+        width: 40vh;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 15vh;
+    }
+    .display-show
+    {
+        background-color: chartreuse;
+        height: 60px;
+        width: 23vh;
+        position: relative; top: 40vh;left:85.5vh;
+        border-radius: 10vh;
+    }
+    .buttons button
+    {
+        background-color: chartreuse;
+        height: 5vh;
+        width: 5vh;
+        border: 0;
+        border-radius: 10vh;
+        font-weight: bold;
+        margin: 15px;
+    }
+    .buttons
+    {
+        position: relative;left: 88vh;top: 42vh;
+    }
+    #display
+    {
+        position: relative;left: 8vh;top: 2vh;
+    } */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+    }
+    
+    .container {
+        background-color: brown;
+        height: 30vh;
+        width: 40vh;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 15vh;
+    }
+    
+    .display-show {
+        background-color: chartreuse;
+        height: 60px;
+        width: 90%; /* Adjusted width for responsiveness */
+        max-width: 200px; /* Added max-width to prevent excessive stretching */
+        margin: 20px auto; /* Centered with auto margins */
+        border-radius: 30px; /* Updated to use px instead of vh for better control */
+        position: relative;top: 38vh;
+    }
+    
+    .buttons button {
+        background-color: chartreuse;
+        height: 40px; /* Adjusted height for responsiveness */
+        width: 40px; /* Adjusted width for responsiveness */
+        border: 0;
+        border-radius: 40px;
+        font-weight: bold;
+        margin: 10px; /* Reduced margin for better spacing */
+        position: relative;top: 38vh;
+    }
+    
+    .buttons {
+        text-align: center; /* Centered buttons */
+    }
+    
+    #display {
+        text-align: center; /* Centered text */
+        position: relative;top: 15px;
+    }
